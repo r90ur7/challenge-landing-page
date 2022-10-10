@@ -1,6 +1,28 @@
-
-.Page-Header{display: flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Page-Header{
+display: flex;
 justify-content: center;
-padding: 28px 0;
+padding: 30px 0;
 background: #000000;
+}
+.main-banner{
+    display: block;
+    width: 100%;
+}
+.Header-Logo{
+    display: block;
+}
+@media screen  and (max-width: 1023px) {
+        .MainBannerDesktop{
+            display: none;
+        }
+}
+@media screen and (min-width: 1024px) {
+    .MainBannerMobile{
+        display: none;
+    }
 }

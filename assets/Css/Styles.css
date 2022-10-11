@@ -64,6 +64,32 @@ background: #000000;
     justify-content: center;
     align-items: center;
 }
+.Cards{
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+    gap: 20px;
+    justify-content: center;
+    padding: 142px 0 180px;   
+}
+.CardBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    max-width: 300px;
+    font-size: 16px;
+    height: 288px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.CardDescription{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
 @media screen  and (max-width: 1023px) {
         .MainBannerDesktop{
             display: none;
@@ -92,6 +118,12 @@ background: #000000;
             max-width: 358px;
             max-height: 116px;
         }
+        .Cards{
+            grid-template-columns: 1fr;
+            padding: 90px 32px ;
+            gap:24px;
+            justify-items: center;
+        }
 
 }
 @media screen and (min-width: 1024px) {
@@ -119,5 +151,19 @@ background: #000000;
         max-width: 630px;
         max-height: 704px;
         height: 704px;
+    }
+    .CardBox{
+        max-width: 600px;
+        font-size: 64px;
+        height: 578px;
+        line-height: 24px;
+    }
+    .imageCard{
+        width: 204px;
+        height: 206px;
+    }
+    .CardDescription{
+        font-size: 38px;
+        line-height: 28px;
     }
 }

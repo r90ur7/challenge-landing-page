@@ -69,7 +69,7 @@ background: #000000;
     grid-template-columns: repeat(3,max-content);
     gap: 20px;
     justify-content: center;
-    padding: 142px 0 180px;   
+    padding: 142px 0 80px;   
 }
 .CardBox{
     display: flex;
@@ -90,6 +90,32 @@ background: #000000;
     font-size: 16px;
     line-height: 24px;
 }
+.MidBanner{
+    margin: 80px 0 0;
+    background: rgba(224, 224, 224, 1);
+
+}
+.wrapper{
+    max-width: 100%;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    padding: 32px 30px 32px;
+    position: relative;
+    top: 60px;
+}
+.midCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.midimg{
+    display: block;
+    width: 100%;
+}
+
+
 @media screen  and (max-width: 1023px) {
         .MainBannerDesktop{
             display: none;
@@ -124,7 +150,23 @@ background: #000000;
             gap:24px;
             justify-items: center;
         }
-
+        .wrapper{
+            gap: 14px;
+            grid-template-columns: none;
+            grid-template-areas:
+            "img2 img1"
+            "img3 img3"
+            ;
+        }
+        .img1{
+            grid-area:img1;
+        }
+        .img2{
+            grid-area:img2;
+        }
+        .img3{
+            grid-area:img3;
+        }
 }
 @media screen and (min-width: 1024px) {
     .MainBannerMobile{

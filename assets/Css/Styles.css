@@ -141,10 +141,55 @@ background: #000000;
     font-size: 16px;
     line-height: 24px;
 }
+.BotomDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 108px 0 50px;
+}
+.BlockText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 158px;
+    width: 550px;
+}
+.BotdescriptionTitlte{
+    width: 420px;
+    height: 39px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+.Botdescription{
+    width: 550px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
 
+
+}
+.downBannerBox{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 106px;
+}
+.lastBanner{
+    width: 70%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background: #000000;
+}
 
 @media screen  and (max-width: 1023px) {
-        .MainBannerDesktop{
+        .MainBannerDesktop, .footerDesk{
             display: none;
         }
         .TopInfocard{
@@ -165,6 +210,21 @@ background: #000000;
             line-height: 34px;
         }
         .TopInfocardDescription{
+            font-size: 16px;
+            line-height: 24px;
+            padding: 0 28px;
+            max-width: 358px;
+            max-height: 116px;
+        }
+        .BotomDescription{
+            padding: 50px 32px 87px;
+        }
+       
+        .BotdescriptionTitlte{
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .Botdescription{
             font-size: 16px;
             line-height: 24px;
             padding: 0 28px;
@@ -199,9 +259,14 @@ background: #000000;
         .img3{
             grid-area:img3;
         }
+        .BotomDescription{
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+        }
 }
 @media screen and (min-width: 1024px) {
-    .MainBannerMobile{
+    .MainBannerMobile,.footermob{
         display: none;
     }
 }

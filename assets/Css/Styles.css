@@ -141,7 +141,7 @@ background: #000000;
     font-size: 16px;
     line-height: 24px;
 }
-.BotomDescription{
+.BottomDescription{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,11 +153,8 @@ background: #000000;
     align-items: center;
     flex-direction: column;
     height: 158px;
-    width: 550px;
 }
 .BotdescriptionTitlte{
-    width: 420px;
-    height: 39px;
     font-weight: 600;
     font-size: 32px;
     line-height: 40px;
@@ -170,8 +167,6 @@ background: #000000;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-
-
 }
 .downBannerBox{
     display: flex;
@@ -179,7 +174,7 @@ background: #000000;
     padding: 50px 0 106px;
 }
 .lastBanner{
-    width: 70%;
+    width: 100%;
 }
 .footer{
     padding: 38px 0;
@@ -274,14 +269,16 @@ background: #000000;
         .img3{
             grid-area:img3;
         }
-        .BotomDescription{
-            justify-items: center;
-            justify-content: center;
-            align-items: center;
+        .BottomDescription{
+                padding: 50px 0 87px;
         }
         .footerText{
             max-width: 280px;
             text-align: center;
+        }
+        .bottomwarp{
+            display: flex;
+            flex-direction: column-reverse;
         }
 }
 @media screen and (min-width: 1024px) {

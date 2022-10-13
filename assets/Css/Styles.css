@@ -182,12 +182,27 @@ background: #000000;
     width: 70%;
 }
 .footer{
+    padding: 38px 0;
+    max-width: 100%;
     display: flex;
-    justify-content: center;
-    padding: 30px 0;
+    flex-direction: column;
+    align-items: center;
     background: #000000;
 }
-
+.icons{
+    display: flex;
+    list-style: none;
+}
+.icon{
+    margin: 0 8px 16px;
+}
+.footerText{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #BDBDBD; 
+    }
 @media screen  and (max-width: 1023px) {
         .MainBannerDesktop, .footerDesk{
             display: none;
@@ -263,6 +278,10 @@ background: #000000;
             justify-items: center;
             justify-content: center;
             align-items: center;
+        }
+        .footerText{
+            max-width: 280px;
+            text-align: center;
         }
 }
 @media screen and (min-width: 1024px) {

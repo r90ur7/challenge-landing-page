@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
 .Page-Header{
 display: flex;
 justify-content: center;
@@ -13,7 +17,7 @@ background: #000000;
     display: block;
     width: 100%;
 }
-.Header-Logo{
+.oHeader-Log{
     display: block;
 }
 .TopInfocard{
@@ -79,7 +83,6 @@ background: #000000;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
     max-width: 300px;
-    font-size: 16px;
     height: 288px;
     line-height: 24px;
     font-weight: 400;
@@ -121,6 +124,7 @@ background: #000000;
     gap: 16px;
     justify-content: center;
     align-items: center;
+    justify-items: center
 }
 .bottomcard{
     display: flex;
@@ -130,13 +134,16 @@ background: #000000;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
     padding: 32px 0 0;
+    max-width: 432px;
+    height: 332px;
+    
     
 }
 .BottomImage{
-    margin-bottom: 14px;
+    align-items: center;
 }
 .imgdescripton{
-    padding: 0px 32px 65px;
+    font-weight: 400;
     text-align: center;
     font-size: 16px;
     line-height: 24px;
@@ -292,18 +299,21 @@ background: #000000;
 }
 /* Concertar medidas futuramente */
 @media screen and (min-width: 2500px) {
+    .Header-Logo{
+        width: 500px;
+    }
     .TopInfocardText{
         max-width: 1532px;
         height: 364px;
     }
     .TopInfocardSubtitle{
-        font-size: 40px;
+        font-size: 36px;
     }
     .TopInfocardTitle{
         font-size: 60px;
     }
     .TopInfocardDescription{
-        line-height: 30px;
+        line-height: 40px;
         font-size: 38px;
     }
     .ImageTop{
@@ -323,7 +333,7 @@ background: #000000;
     }
     .CardDescription{
         font-size: 38px;
-        line-height: 28px;
+        line-height: 36px;
     }
     .BoxText{
         display: flex;
@@ -346,4 +356,25 @@ background: #000000;
         max-width: 746px;
         max-height: 242px;
     }
+    .imgdescripton{
+        font-size: 32px;
+        line-height: 30px;
+    }
+    .bottomcard{
+        max-width: 900px;
+        height: 700px;
+    }
+    .BottomImage{
+        width: 180px;
+    }
+    .fotimg{
+        width: 50px;
+    }
+    .footerText{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 12px;
+            text-transform: uppercase;
+            color: #BDBDBD; 
+        }
 }

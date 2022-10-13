@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
 .Page-Header{
 display: flex;
 justify-content: center;
@@ -13,7 +17,7 @@ background: #000000;
     display: block;
     width: 100%;
 }
-.Header-Logo{
+.oHeader-Log{
     display: block;
 }
 .TopInfocard{
@@ -79,7 +83,6 @@ background: #000000;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
     max-width: 300px;
-    font-size: 16px;
     height: 288px;
     line-height: 24px;
     font-weight: 400;
@@ -121,6 +124,7 @@ background: #000000;
     gap: 16px;
     justify-content: center;
     align-items: center;
+    justify-items: center
 }
 .bottomcard{
     display: flex;
@@ -130,48 +134,46 @@ background: #000000;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
     padding: 32px 0 0;
+    max-width: 432px;
+    height: 332px;
+    
     
 }
 .BottomImage{
-    margin-bottom: 14px;
+    align-items: center;
 }
 .imgdescripton{
-    padding: 0px 32px 65px;
+    font-weight: 400;
     text-align: center;
     font-size: 16px;
     line-height: 24px;
 }
-.BotomDescription{
+.BottomInfoCard{
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 108px 0 50px;
+    align-items: center;
+    padding: 0 0 87px;
 }
-.BlockText{
+.BoxText{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 158px;
-    width: 550px;
+    height: 182px;
+    max-width: 766px;
 }
 .BotdescriptionTitlte{
-    width: 420px;
-    height: 39px;
+    width: 55%;
     font-weight: 600;
     font-size: 32px;
-    line-height: 40px;
-    text-align: center;
+    line-height: 38px;
 }
 .Botdescription{
-    width: 550px;
-    height: 120px;
     font-weight: 400;
+    text-align: center;
+    padding: 0 52px;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
-
-
 }
 .downBannerBox{
     display: flex;
@@ -231,20 +233,15 @@ background: #000000;
             max-width: 358px;
             max-height: 116px;
         }
-        .BotomDescription{
-            padding: 50px 32px 87px;
+        .Botdescription{
+            padding: 0 32px 0;
         }
        
         .BotdescriptionTitlte{
+            width: 90%;
             font-size: 24px;
             line-height: 30px;
-        }
-        .Botdescription{
-            font-size: 16px;
-            line-height: 24px;
-            padding: 0 28px;
-            max-width: 358px;
-            max-height: 116px;
+            text-align: center;
         }
         .Cards{
             grid-template-columns: 1fr;
@@ -274,15 +271,26 @@ background: #000000;
         .img3{
             grid-area:img3;
         }
-        .BotomDescription{
-            justify-items: center;
-            justify-content: center;
-            align-items: center;
+        .lastBanner{
+            width: 100%;
+        }
+        .BottomDescription{
+                padding: 50px 0 87px;
         }
         .footerText{
             max-width: 280px;
             text-align: center;
         }
+        .bottomwarp{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .downBannerBox{
+            display: flex;
+            justify-content: center;
+            padding: 0 0 50px;
+        }
+        
 }
 @media screen and (min-width: 1024px) {
     .MainBannerMobile,.footermob{
@@ -291,18 +299,21 @@ background: #000000;
 }
 /* Concertar medidas futuramente */
 @media screen and (min-width: 2500px) {
+    .Header-Logo{
+        width: 500px;
+    }
     .TopInfocardText{
         max-width: 1532px;
         height: 364px;
     }
     .TopInfocardSubtitle{
-        font-size: 40px;
+        font-size: 36px;
     }
     .TopInfocardTitle{
         font-size: 60px;
     }
     .TopInfocardDescription{
-        line-height: 30px;
+        line-height: 40px;
         font-size: 38px;
     }
     .ImageTop{
@@ -322,6 +333,48 @@ background: #000000;
     }
     .CardDescription{
         font-size: 38px;
-        line-height: 28px;
+        line-height: 36px;
     }
+    .BoxText{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 400px;
+        max-width: 800px;
+    }
+    .BotdescriptionTitlte{
+        width: 90%;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .Botdescription{
+        font-size: 34px;
+        line-height: 50px;
+        padding: 0 28px;
+        max-width: 746px;
+        max-height: 242px;
+    }
+    .imgdescripton{
+        font-size: 32px;
+        line-height: 30px;
+    }
+    .bottomcard{
+        max-width: 900px;
+        height: 700px;
+    }
+    .BottomImage{
+        width: 180px;
+    }
+    .fotimg{
+        width: 50px;
+    }
+    .footerText{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 12px;
+            text-transform: uppercase;
+            color: #BDBDBD; 
+        }
 }

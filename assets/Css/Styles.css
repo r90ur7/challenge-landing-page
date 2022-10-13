@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Page-Header{
+display: flex;
+justify-content: center;
+padding: 30px 0;
+background: #000000;
+}
+.main-banner{
+    display: block;
+    width: 100%;
+}
+.Header-Logo{
+    display: block;
+}
+.TopInfocard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 74px 0 74px;
+}
+.TopInfocardText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 182px;
+    max-width: 766px;
+}
+.TopInfocardSubtitle{
+    width: 100%;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 220px;
+    max-height: 40px;
+}
+.TopInfocardTitle{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+.TopInfocardDescription{
+    font-weight: 400;
+    text-align: center;
+    padding: 0 52px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.PcContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImageTop{
+    max-width: 316px;
+    max-height: 352px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cards{
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+    gap: 20px;
+    justify-content: center;
+    padding: 142px 0 80px;   
+}
+.CardBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    max-width: 300px;
+    font-size: 16px;
+    height: 288px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.CardDescription{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.MidBanner{
+    margin: 80px 0 0;
+    background: rgba(224, 224, 224, 1);
+
+}
+.wrapper{
+    max-width: 100%;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    padding: 32px 30px 32px;
+    position: relative;
+    top: 60px;
+}
+.midCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.midimg{
+    display: block;
+    width: 100%;
+}
+.BottomCards{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    padding: 126px 0 108px;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.bottomcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    padding: 32px 0 0;
+    
+}
+.BottomImage{
+    margin-bottom: 14px;
+}
+.imgdescripton{
+    padding: 0px 32px 65px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+.BotomDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 108px 0 50px;
+}
+.BlockText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 158px;
+    width: 550px;
+}
+.BotdescriptionTitlte{
+    width: 420px;
+    height: 39px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+.Botdescription{
+    width: 550px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+
+}
+.downBannerBox{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 106px;
+}
+.lastBanner{
+    width: 70%;
+}
+.footer{
+    padding: 38px 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+}
+.icons{
+    display: flex;
+    list-style: none;
+}
+.icon{
+    margin: 0 8px 16px;
+}
+.footerText{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #BDBDBD; 
+    }
+@media screen  and (max-width: 1023px) {
+        .MainBannerDesktop, .footerDesk{
+            display: none;
+        }
+        .TopInfocard{
+            padding: 144px 0 66px;
+        }
+        .ImageTop{
+            max-width: 240px;
+            max-height: 240px;
+        }
+        .TopInfocardSubtitle{
+            font-size: 20px;
+            max-width: 138px;
+            max-height: 24px;
+            line-height: 24px;
+        }
+        .TopInfocardTitle{
+            font-size: 28px;
+            line-height: 34px;
+        }
+        .TopInfocardDescription{
+            font-size: 16px;
+            line-height: 24px;
+            padding: 0 28px;
+            max-width: 358px;
+            max-height: 116px;
+        }
+        .BotomDescription{
+            padding: 50px 32px 87px;
+        }
+       
+        .BotdescriptionTitlte{
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .Botdescription{
+            font-size: 16px;
+            line-height: 24px;
+            padding: 0 28px;
+            max-width: 358px;
+            max-height: 116px;
+        }
+        .Cards{
+            grid-template-columns: 1fr;
+            padding: 90px 32px ;
+            gap:24px;
+            justify-items: center;
+        }
+        .BottomCards {
+            grid-template-columns: 1fr;
+            padding: 80px 22px 100px;
+        }
+
+        .wrapper{
+            gap: 14px;
+            grid-template-columns: none;
+            grid-template-areas:
+            "img2 img1"
+            "img3 img3"
+            ;
+        }
+        .img1{
+            grid-area:img1;
+        }
+        .img2{
+            grid-area:img2;
+        }
+        .img3{
+            grid-area:img3;
+        }
+        .BotomDescription{
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .footerText{
+            max-width: 280px;
+            text-align: center;
+        }
+}
+@media screen and (min-width: 1024px) {
+    .MainBannerMobile,.footermob{
+        display: none;
+    }
+}
+/* Concertar medidas futuramente */
+@media screen and (min-width: 2500px) {
+    .TopInfocardText{
+        max-width: 1532px;
+        height: 364px;
+    }
+    .TopInfocardSubtitle{
+        font-size: 40px;
+    }
+    .TopInfocardTitle{
+        font-size: 60px;
+    }
+    .TopInfocardDescription{
+        line-height: 30px;
+        font-size: 38px;
+    }
+    .ImageTop{
+        max-width: 630px;
+        max-height: 704px;
+        height: 704px;
+    }
+    .CardBox{
+        max-width: 600px;
+        font-size: 64px;
+        height: 578px;
+        line-height: 24px;
+    }
+    .imageCard{
+        width: 204px;
+        height: 206px;
+    }
+    .CardDescription{
+        font-size: 38px;
+        line-height: 28px;
+    }
+}

@@ -73,7 +73,7 @@ background: #000000;
     grid-template-columns: repeat(3,max-content);
     gap: 20px;
     justify-content: center;
-    padding: 142px 0 80px;   
+    padding: 180px 0 80px;   
 }
 .CardBox{
     display: flex;

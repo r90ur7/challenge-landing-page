@@ -10,8 +10,7 @@ Projeto desenvolvido como parte do processo de aprendizado em front-end.
 ---
 
 ## ✨ Demonstração  
-[![Preview da Landing Page](https://via.placeholder.com/800x400?text=Screenshot+da+P%C3%A1gina)](https://exemplo.com)  
-*Adicione uma imagem real do projeto aqui*
+[![Preview da Landing Page](https://via.placeholder.com/800x400?text=Screenshot+da+P%C3%A1gina)](https://exemplo.com)
 
 ---
 

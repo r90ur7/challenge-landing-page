@@ -3,390 +3,482 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Inter', sans-serif;
     color: #000000;
+    line-height: 1.5;
 }
-.Page-Header{
-display: flex;
-justify-content: center;
-padding: 30px 0;
-background: #000000;
-}
-.main-banner{
-    display: block;
-    width: 100%;
-}
-.oHeader-Log{
-    display: block;
-}
-.TopInfocard{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 74px 0 74px;
-}
-.TopInfocardText{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 182px;
-    max-width: 766px;
-}
-.TopInfocardSubtitle{
-    text-transform: uppercase;
-    width: 100%;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
-    max-width: 220px;
-    max-height: 40px;
-}
-.TopInfocardTitle{
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 58px;
-    text-transform: uppercase;
-}
-.TopInfocardDescription{
-    font-weight: 400;
-    padding: 0 52px;
-    font-size: 16px;
-    line-height: 24px;
-}
-.PcContainer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.ImageTop{
-    max-width: 316px;
-    max-height: 352px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Cards{
-    display: grid;
-    grid-template-columns: repeat(3,max-content);
-    gap: 20px;
-    justify-content: center;
-    padding: 180px 0 0;   
-}
-.CardBox{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items:center;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
-    max-width: 300px;
-    height: 288px;
-    line-height: 24px;
-    font-weight: 400;
-}
-.CardDescription{
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-.MidBanner{
-    margin: 80px 0 0;
-    background: rgba(224, 224, 224, 1);
 
-}
-.wrapper{
-    max-width: 100%;
-    display: grid;
-    gap: 40px;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: center;
-    padding: 0 30px 0px;
-    position: relative;
-    top: 60px;
-}
-.midCard{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.midimg{
-    display: block;
-    width: 100%;
-}
-.BottomCards{
-    display: grid;
-    grid-template-columns: 22% 22% 22% 22%;
-    padding: 126px 0 108px;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
-    justify-items: center
-}
-.bottomcard{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
-    padding: 32px 0 0;
-    max-width: 432px;
-    height: 332px;
-    
-    
-}
-.BottomImage{
-    align-items: center;
-}
-.imgdescripton{
-    font-weight: 400;
-    text-align: center;
-    font-size: 16px;
-    line-height: 24px;
-}
-.BottomInfoCard{
+.Page-Header {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 0 0 87px;
-}
-.BoxText{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 182px;
-    max-width: 766px;
-}
-.BotdescriptionTitlte{
-    width: 55%;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 38px;
-}
-.Botdescription{
-    font-weight: 400;
-    text-align: center;
-    font-size: 16px;
-    line-height: 24px;
-}
-.downBannerBox{
-    display: flex;
-    justify-content: center;
-    padding: 50px 0 106px;
-}
-.lastBanner{
-    width: 70%;
-}
-.footer{
-    padding: 38px 0;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 30px 20px;
     background: #000000;
 }
-.icons{
+
+.Header-Logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.TopInfocard {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 74px 20px;
+}
+
+.TopInfocardText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 766px;
+    text-align: center;
+}
+
+.TopInfocardSubtitle {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.25;
+    margin-bottom: 10px;
+}
+
+.TopInfocardTitle {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.TopInfocardDescription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 20px;
+    max-width: 600px;
+}
+
+.PcContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.ImageTop {
+    max-width: 316px;
+    width: 100%;
+    height: auto;
+}
+
+.Cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 80px 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.CardBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    padding: 30px 20px;
+    height: 288px;
+    border-radius: 8px;
+}
+
+.imageCard {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.CardDescription {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.MidBanner {
+    margin: 80px 0 0;
+    background: rgba(224, 224, 224, 1);
+    padding-bottom: 80px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    padding: 60px 20px 0;
+}
+
+.midCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midimg {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.BottomCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 80px 20px;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.bottomcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+    padding: 32px 20px;
+    min-height: 300px;
+    border-radius: 8px;
+}
+
+.BottomImage {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.imgdescripton {
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.bottomwarp {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.BottomInfoCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.BoxText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 766px;
+    text-align: center;
+}
+
+.BotdescriptionTitlte {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.Botdescription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.downBannerBox {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.lastBanner {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.footer {
+    padding: 38px 20px;
+    background: #000000;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
     list-style: none;
+    margin-bottom: 16px;
 }
-.icon{
-    margin: 0 8px 16px;
+
+.icon {
+    margin: 0 8px;
 }
-.footerText{
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 12px;
-        text-transform: uppercase;
-        color: #BDBDBD; 
+
+.fotimg {
+    width: 24px;
+    height: 24px;
+}
+
+.footerText {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .TopInfocardSubtitle {
+        font-size: 28px;
     }
-@media screen  and (max-width: 1023px) {
-        .MainBannerDesktop, .footerDesk{
-            display: none;
-        }
-        .TopInfocard{
-            padding: 144px 0 66px;
-        }
-        .ImageTop{
-            max-width: 240px;
-            max-height: 240px;
-        }
-        .TopInfocardSubtitle{
-            font-size: 20px;
-            max-width: 138px;
-            max-height: 24px;
-            line-height: 24px;
-        }
-        .TopInfocardTitle{
-            font-size: 28px;
-            line-height: 34px;
-        }
-        .TopInfocardDescription{
-            font-size: 16px;
-            line-height: 24px;
-            padding: 0 28px;
-            max-width: 358px;
-            max-height: 116px;
-        }
-        .Botdescription{
-            padding: 0 32px 0;
-        }
-
-        .BotdescriptionTitlte{
-            width: 90%;
-            font-size: 24px;
-            line-height: 30px;
-            text-align: center;
-        }
-        .Cards {
-            grid-template-columns: 1fr;
-            padding: 80px 0px 0px;
-            gap: 24px;
-            justify-items: center;
-        }
-        .MidBanner {
-            margin: 112px 0 0;
-        }
-        .BottomCards {
-            grid-template-columns: 1fr;
-            padding: 80px 22px 100px;
-        }
-
-        .wrapper{
-            margin-bottom: 80px;
-            gap: 14px;
-            grid-template-columns: none;
-            grid-template-areas:
-            "img2 img1"
-            "img3 img3"
-            ;
-        }
-        .img1{
-            grid-area:img1;
-        }
-        .img2{
-            grid-area:img2;
-        }
-        .img3{
-            grid-area:img3;
-        }
-        .lastBanner{
-            margin-bottom: 50px;
-            width: 100%;
-        }
-        .BottomDescription{
-                padding: 50px 0 87px;
-        }
-        .footerText{
-            max-width: 280px;
-            text-align: center;
-        }
-        .bottomwarp{
-            display: flex;
-            flex-direction: column-reverse;
-        }
-        .downBannerBox{
-            display: flex;
-            justify-content: center;
-            padding: 0 0 50px;
-        }
-        
+    
+    .TopInfocardTitle {
+        font-size: 40px;
+    }
+    
+    .Cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 100px 40px 0;
+    }
+    
+    .BottomCards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 100px 40px;
+    }
+    
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 60px 40px 0;
+    }
 }
-@media screen and (min-width: 1024px) {
-    .MainBannerMobile,.footermob{
+
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+    .MainBannerDesktop, .footerDesk {
         display: none;
     }
+    
+    .Page-Header {
+        padding: 20px;
+    }
+    
+    .TopInfocard {
+        padding: 60px 20px;
+    }
+    
+    .TopInfocardSubtitle {
+        font-size: 20px;
+    }
+    
+    .TopInfocardTitle {
+        font-size: 28px;
+    }
+    
+    .TopInfocardDescription {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    
+    .ImageTop {
+        max-width: 240px;
+    }
+    
+    .Cards {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 60px 20px 0;
+    }
+    
+    .MidBanner {
+        margin: 60px 0 0;
+        padding-bottom: 60px;
+    }
+    
+    .wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 40px 20px 0;
+    }
+    
+    .BottomCards {
+        grid-template-columns: 1fr;
+        padding: 60px 20px;
+        gap: 20px;
+    }
+    
+    .BotdescriptionTitlte {
+        font-size: 24px;
+    }
+    
+    .Botdescription {
+        font-size: 14px;
+    }
+    
+    .bottomwarp {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .downBannerBox {
+        padding: 30px 0;
+    }
+    
+    .footerText {
+        font-size: 9px;
+    }
 }
-/* Concertar medidas futuramente */
-@media screen and (min-width: 2500px) {
-    .Header-Logo{
-        width: 500px;
+
+/* Desktop Styles */
+@media screen and (min-width: 1024px) {
+    .MainBannerMobile, .footermob {
+        display: none;
     }
-    .TopInfocardText{
-        max-width: 1532px;
-        height: 364px;
+    
+    .Cards {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 120px 40px 0;
     }
-    .TopInfocardSubtitle{
-        font-size: 64px;
-        line-height: 80px;
-        max-width: 440px;
-        max-height: 80px;
+    
+    .BottomCards {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 120px 40px;
     }
-    .Cards{
-        gap: 40px;
-        padding: 360px 0 0;   
+    
+    .wrapper {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .TopInfocardTitle{
+}
+
+/* Large Desktop Styles */
+@media screen and (min-width: 1400px) {
+    .TopInfocardSubtitle {
+        font-size: 40px;
+    }
+    
+    .TopInfocardTitle {
+        font-size: 60px;
+    }
+    
+    .TopInfocardDescription {
+        font-size: 18px;
+    }
+    
+    .BotdescriptionTitlte {
+        font-size: 40px;
+    }
+    
+    .Botdescription {
+        font-size: 18px;
+    }
+    
+    .imgdescripton {
+        font-size: 18px;
+    }
+    
+    .CardDescription {
+        font-size: 18px;
+    }
+}
+
+/* Extra Large Screens */
+@media screen and (min-width: 2000px) {
+    .Header-Logo {
+        width: 300px;
+    }
+    
+    .TopInfocardSubtitle {
+        font-size: 50px;
+    }
+    
+    .TopInfocardTitle {
         font-size: 80px;
     }
-    .TopInfocardDescription{
-        line-height: 48px;
-        font-size: 38px;
+    
+    .TopInfocardDescription {
+        font-size: 24px;
     }
-    .ImageTop{
-        max-width: 630px;
-        max-height: 704px;
-        height: 704px;
+    
+    .ImageTop {
+        max-width: 500px;
     }
-    .CardBox{
-        max-width: 600px;
-        font-size: 64px;
-        height: 578px;
-        line-height: 24px;
-    }
-    .imageCard{
-        width: 204px;
-        height: 206px;
-    }
-    .CardDescription{
-        font-size: 38px;
-        line-height: 48px;
-    }
-    .BottomCards {
-        padding: 252px 0 216px;
-    }
-
-    .BoxText{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    
+    .CardBox {
         height: 400px;
-        max-width: 800px;
+        padding: 50px 30px;
     }
-    .BotdescriptionTitlte{
-        width: 90%;
-        font-size: 64px;
-        line-height: 76px;
-        text-align: center;
+    
+    .imageCard {
+        width: 100px;
+        height: 100px;
     }
-    .Botdescription{
-        font-size: 34px;
-        line-height: 50px;
+    
+    .CardDescription {
+        font-size: 24px;
     }
-    .imgdescripton{
-        font-size: 32px;
-        line-height: 48px;
+    
+    .BottomImage {
+        width: 100px;
+        height: 100px;
     }
-    .bottomcard{
-        max-width: 900px;
-        height: 700px;
+    
+    .bottomcard {
+        min-height: 450px;
+        padding: 50px 30px;
     }
-    .BottomImage{
-        width: 180px;
+    
+    .BotdescriptionTitlte {
+        font-size: 60px;
     }
-    .fotimg{
-        width: 50px;
+    
+    .Botdescription {
+        font-size: 28px;
     }
-    .footerText{
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 12px;
-            text-transform: uppercase;
-            color: #BDBDBD; 
-        }
+    
+    .imgdescripton {
+        font-size: 24px;
+    }
+    
+    .fotimg {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .footerText {
+        font-size: 16px;
+    }
 }
